@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "ColorPicker"
 include(":app")
- 
+include(":ColorPicker")
