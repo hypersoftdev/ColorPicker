@@ -77,12 +77,13 @@ Change Radius the view: ( min 30f & max 200f)
 
 ## Attribute Summary
 
-| Attribute                        | Format       | Description                                                 |
-|----------------------------------|--------------|------------------------------------------------------------ |
-| `strokeColor `                   | color        | Set stroke color of the colorpickerview.                    |
-| `changeStrokeColor`              | boolean      | Change real time stroke color during picking color          |
-| `strokeWidth`                    | dimension    | Change stroke width of colorpickerview.                     |
-| `circleRadius`                   | dimension    | Change circle radius.                                       |
+| Attribute                        | Format    | Description                                        |
+|----------------------------------|-----------|----------------------------------------------------|
+| `strokeColor `                   | color     | Set stroke color of the colorpickerview.           |
+| `changeStrokeColor`              | boolean   | Change real time stroke color during picking color |
+| `strokeWidth`                    | dimension | Change stroke width of colorpickerview.            |
+| `circleRadius`                   | dimension | Change circle radius.                              |
+| `outerCircleColor`               | color     | Change outerCircle Color.                          |
 
 
 
