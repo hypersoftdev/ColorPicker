@@ -18,6 +18,8 @@ repositories {
 
 ### Step B: Add Dependencies
 
+Include the cyclic seekbar library in your **app-level** `build.gradle` file. Replace `x.x.x` with the latest version: [![](https://jitpack.io/v/hypersoftdev/ColorPicker.svg)](https://jitpack.io/#hypersoftdev/ColorPicker)
+
 ```
 implementation com.github.hypersoftdev:ColorPicker:x.x.x'
 ```
@@ -86,6 +88,8 @@ Change Radius the view: ( min 30f & max 200f)
 | `outerCircleColor`               | color     | Change outerCircle Color.                          |
 
 
+## Screen Sample
+![Sample](https://github.com/hypersoftdev/ColorPicker/blob/master/screens/screengif.gif?raw=true)
 
 # Acknowledgements
 
