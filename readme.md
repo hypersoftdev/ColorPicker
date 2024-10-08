@@ -86,6 +86,14 @@ Change Radius the view: ( min 30f & max 200f)
 
 
 
+# Acknowledgements
+
+This work would not have been possible without the invaluable contributions of [Bilal](https://github.com/epegasus). His expertise, dedication, and unwavering support have been instrumental in bringing this project to fruition.
+
+![Profile](https://github.com/hypersoftdev/CropView/blob/master/screenshot/profile_image.jpg?raw=true)
+
+We are deeply grateful for [Bilal Ahmed](https://github.com/epegasus) involvement and his belief in the importance of this work. His contributions have made a significant impact, and we are honored to have had the opportunity to collaborate with him.
+
 # LICENSE
 
 Copyright 2023 Hypersoft Inc
