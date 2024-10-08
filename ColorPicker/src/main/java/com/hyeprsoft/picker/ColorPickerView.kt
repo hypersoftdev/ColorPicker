@@ -6,7 +6,6 @@ import android.util.AttributeSet
 import android.view.MotionEvent
 import android.view.View
 import android.view.ViewGroup
-import com.hyeprsoft.colorpicker.R
 
 class ColorPickerView(context: Context, attrs: AttributeSet? = null) : View(context, attrs) {
 

@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.hyeprsoft.colorpicker"
+    namespace = "com.hyeprsoft.picker"
     compileSdk = 34
 
     defaultConfig {
@@ -44,7 +44,7 @@ dependencies {
 publishing {
     publications {
         create<MavenPublication>("release") {
-            groupId = "com.hypersoft.colorpicker"
+            groupId = "com.hypersoft.picker"
             artifactId = "colorpicker"
             version = "1.0.1"
 
