@@ -1,7 +1,7 @@
 
 # ColorPicker
 
-ColorPicker is a customizable Android library designed to enhance user interaction by providing an intuitive draggable color picker. This view allows users to select colors from the underlying layout dynamically, making it perfect for applications that require color customization, such as design tools and art applications.
+**ColorPicker** is a customizable Android library designed to enhance user interaction by providing an intuitive draggable color picker. This view allows users to select colors from the underlying layout dynamically, making it perfect for applications that require color customization, such as design tools and art applications.
 
 ## Gradle Integration
 
