@@ -18,6 +18,8 @@ repositories {
 
 ### Step B: Add Dependencies
 
+Include the cyclic seekbar library in your **app-level** `build.gradle` file. Replace `x.x.x` with the latest version:
+
 ```
 implementation com.github.hypersoftdev:ColorPicker:x.x.x'
 ```
