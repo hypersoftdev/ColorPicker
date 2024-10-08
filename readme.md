@@ -27,7 +27,7 @@ implementation com.github.hypersoftdev:ColorPicker:x.x.x'
 ### XML Example:
 
 ```
-  <com.hyeprsoft.ColorPickerView
+  <com.hyeprsoft.picker.ColorPickerView
         android:id="@+id/color_picker"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
