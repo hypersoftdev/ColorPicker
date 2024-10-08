@@ -86,6 +86,8 @@ Change Radius the view: ( min 30f & max 200f)
 | `outerCircleColor`               | color     | Change outerCircle Color.                          |
 
 
+## Screen Sample
+![Sample](https://github.com/hypersoftdev/ColorPicker/blob/master/screens/screengif.gif?raw=true)
 
 # Acknowledgements
 
