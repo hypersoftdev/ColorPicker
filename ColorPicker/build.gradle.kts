@@ -25,12 +25,11 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
-
     kotlinOptions {
-        jvmTarget = "1.8"
+        jvmTarget = "17"
     }
 }
 
@@ -44,9 +43,9 @@ dependencies {
 publishing {
     publications {
         create<MavenPublication>("release") {
-            groupId = "com.github.hypersoftdev"
-            artifactId = "ColorPicker"
-            version = "1.0.4"
+            groupId = "com.hyeprsoft.picker"
+            artifactId = "colorpicker"
+            version = "2.3.7"
 
             afterEvaluate {
                 from(components["release"])
