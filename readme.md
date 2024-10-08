@@ -1,4 +1,3 @@
-[![](https://jitpack.io/v/hypersoftdev/TextCraft.svg)](https://jitpack.io/#hypersoftdev/ColorPicker)
 
 # ColorPicker
 
