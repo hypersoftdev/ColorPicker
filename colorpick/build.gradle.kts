@@ -1,24 +1,18 @@
 plugins {
-    alias(libs.plugins.android.application)
+    alias(libs.plugins.android.library)
     alias(libs.plugins.jetbrains.kotlin.android)
+    id("maven-publish")
 }
 
 android {
-    namespace = "com.hypersoft.colorpicker"
+    namespace = "com.hyeprsoft.picker"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.hypersoft.colorpicker"
         minSdk = 24
-        targetSdk = 34
-        versionCode = 1
-        versionName = "1.1"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-    }
-
-    buildFeatures {
-        viewBinding = true
+        consumerProguardFiles("consumer-rules.pro")
     }
 
     buildTypes {
@@ -40,13 +34,22 @@ android {
 }
 
 dependencies {
-
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
-    implementation(libs.androidx.activity)
-    implementation(libs.androidx.constraintlayout)
+}
 
-    implementation(project(":colorpick"))
 
+publishing {
+    publications {
+        create<MavenPublication>("release") {
+            groupId = "com.hyeprsoft.picker"
+            artifactId = "colorpicker"
+            version = "2.3.7"
+
+            afterEvaluate {
+                from(components["release"])
+            }
+        }
+    }
 }
